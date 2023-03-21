@@ -26,50 +26,66 @@
 		weight-heavy:		800
 	);
 
+$gray-nickel: #C0C2BB;
+$woodrush: #342611;
+$irish-coffee: #5B4224;
+$cape-palliser: #9F7644;
+
+$color-white: $gray-nickel;
+$color-alt: $woodrush;
+$color-accent1: $irish-coffee;
+$color-accent2: $cape-palliser;
 // Palette.
 	$palette: (
-		bg:					#fff,
-		fg:					#6f7577,
-		fg-bold:			#61686b,
-		fg-light:			#a8b0b3,
-		fg-lighter:			#e8f0f3,
-		border:				#dddddd,
+		bg:					$color-white,
+		fg:					$irish-coffee,
+		fg-bold:			$irish-coffee,
+		fg-light:			mix($gray-nickel, $woodrush, 0.5),
+		fg-lighter:			mix($gray-nickel, $woodrush, 0.25),
+		border:				mix($color-white, $cape-palliser, 0.8),
 		border-bg:			rgba(144,144,144,0.075),
-		border2:			#d3d3d3,
+		border2:			mix($color-white, #fff, 0.5),
 		border2-bg:			rgba(144,144,144,0.15),
 
 		alt: (
-			fg-bold:		#ffffff,
-			fg:				rgba(255,255,255,0.5),
-			fg-light:		rgba(255,255,255,0.35),
-			fg-lighter:		rgba(255,255,255,0.2),
-			border:			#ffffff,
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		#ffffff,
-			border2-bg:		rgba(255,255,255,0.15)
+			fg-bold:		$color-alt,
+			fg:				mix($cape-palliser, $color-white, 0.5),
+			fg-light:		rgba($color-white,0.35),
+			fg-lighter:		rgba($color-white,0.2),
+			border:			$color-white,
+			border-bg:		rgba($color-white,0.075),
+			border2:		$color-white,
+			border2-bg:		rgba($color-white,0.15)
 		),
 
 		accent1: (
-			bg:				#8cd1a8,
-			fg-bold:		#ffffff,
-			fg:				mix(#8cd1a8, #ffffff, 25%),
-			fg-light:		mix(#8cd1a8, #ffffff, 40%),
-			fg-lighter:		mix(#8cd1a8, #ffffff, 90%),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			bg:				$color-accent1,
+			fg-bold:		$color-white,
+			// fg:				mix($cape-palliser, $color-white, 25%),
+			// fg-light:		mix($cape-palliser, $color-white, 40%),
+			// fg-lighter:		mix($cape-palliser, $color-white, 90%),
+			// border:			rgba($color-white,0.25),
+			// border-bg:		rgba($color-white,0.075),
+			// border2:		rgba($color-white,0.5),
+			// border2-bg:		rgba($color-white,0.2)
+			fg:				mix($color-accent1, $color-white, 25%),
+			fg-light:		mix($color-accent1, $color-white, 40%),
+			fg-lighter:		mix($color-accent1, $color-white, 90%),
+			border:			rgba($color-white,0.25),
+			border-bg:		rgba($color-white,0.075),
+			border2:		rgba($color-white,0.5),
+			border2-bg:		rgba($color-white,0.2)
 		),
 
 		accent2: (
-			bg:				#313a3d,
-			fg-bold:		#ffffff,
-			fg:				mix(#313a3d, #ffffff, 25%),
-			fg-light:		mix(#313a3d, #ffffff, 40%),
-			fg-lighter:		mix(#313a3d, #ffffff, 90%),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			bg:				$color-accent2,
+			fg-bold:		$color-white,
+			fg:				mix($color-accent2, $color-white, 25%),
+			fg-light:		mix($color-accent2, $color-white, 40%),
+			fg-lighter:		mix($color-accent2, $color-white, 90%),
+			border:			rgba($color-white,0.25),
+			border-bg:		rgba($color-white,0.075),
+			border2:		rgba($color-white,0.5),
+			border2-bg:		rgba($color-white,0.2)
 		)
 	);
