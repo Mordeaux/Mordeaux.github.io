@@ -45,7 +45,8 @@ $color-accent2: $cape-palliser;
 		border:				mix($color-white, $cape-palliser, 0.8),
 		border-bg:			$irish-coffee,
 		border2:			mix($color-white, #fff, 0.5),
-		border2-bg:			$cape-palliser,
+		border2-bg:			rgba(144,144,144,0.15),
+		cape: $cape-palliser,
 
 		alt: (
 			fg-bold:		$color-alt,
@@ -61,13 +62,6 @@ $color-accent2: $cape-palliser;
 		accent1: (
 			bg:				$color-accent1,
 			fg-bold:		$color-white,
-			// fg:				mix($cape-palliser, $color-white, 25%),
-			// fg-light:		mix($cape-palliser, $color-white, 40%),
-			// fg-lighter:		mix($cape-palliser, $color-white, 90%),
-			// border:			rgba($color-white,0.25),
-			// border-bg:		rgba($color-white,0.075),
-			// border2:		rgba($color-white,0.5),
-			// border2-bg:		rgba($color-white,0.2)
 			fg:				mix($color-accent1, $color-white, 25%),
 			fg-light:		mix($color-accent1, $color-white, 40%),
 			fg-lighter:		mix($color-accent1, $color-white, 90%),

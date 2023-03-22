@@ -1730,7 +1730,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #9F7644;
+  background: rgba(144, 144, 144, 0.15);
   border-radius: 0;
   border: none;
   color: inherit;
@@ -1826,7 +1826,7 @@ input[type=radio] + label:before {
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
-  background: #9F7644;
+  background: rgba(144, 144, 144, 0.15);
   content: "";
   display: inline-block;
   font-size: 0.8em;
@@ -2259,7 +2259,7 @@ input[type=reset]:active,
 input[type=button]:active,
 button:active,
 .button:active {
-  background-color: #9F7644;
+  background-color: rgba(144, 144, 144, 0.15);
   color: #5B4224 !important;
 }
 input[type=submit].icon,
@@ -2547,10 +2547,6 @@ button:disabled,
 /* Medium */
 @media screen and (max-width: 980px) {
   /* Main */
-  .main .image.primary {
-    display: block;
-    margin: 0 0 4em 0;
-  }
   .main .container {
     padding: 3em 3em 8em 3em;
   }

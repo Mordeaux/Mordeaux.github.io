@@ -1359,7 +1359,7 @@ button,
 		width: 4em;
 
 		&:hover {
-			background-color: _palette(border2-bg);
+			background-color: _palette(cape);
 		}
 	}
 }
@@ -1525,10 +1525,6 @@ button,
 	/* Main */
 
 	.main {
-		.image.primary {
-			display: block;
-			margin: 0 0 (_size(element-margin) * 2) 0;
-		}
 
 		.container {
 			@include padding($size-padding-tb, $size-padding-lr, (0, 0, 7em, 0));

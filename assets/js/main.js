@@ -138,8 +138,7 @@
 
 			var $this = $(this),
 				$primaryImg = $this.find('.image.primary > img'),
-				$bg,
-				options;
+				$bg;
 
 			// No primary image? Bail.
 				if ($primaryImg.length == 0)
