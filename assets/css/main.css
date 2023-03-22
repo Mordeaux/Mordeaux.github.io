@@ -318,7 +318,7 @@ blockquote {
 }
 
 code {
-  background: rgba(144, 144, 144, 0.075);
+  background: #5B4224;
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -1730,7 +1730,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: rgba(144, 144, 144, 0.15);
+  background: #9F7644;
   border-radius: 0;
   border: none;
   color: inherit;
@@ -1826,7 +1826,7 @@ input[type=radio] + label:before {
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
-  background: rgba(144, 144, 144, 0.15);
+  background: #9F7644;
   content: "";
   display: inline-block;
   font-size: 0.8em;
@@ -2176,7 +2176,7 @@ table tbody tr {
   border-right: 0;
 }
 table tbody tr:nth-child(2n+1) {
-  background-color: rgba(144, 144, 144, 0.075);
+  background-color: #5B4224;
 }
 table td {
   padding: 0.75em 0.75em;
@@ -2251,7 +2251,7 @@ input[type=reset]:hover,
 input[type=button]:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(144, 144, 144, 0.075);
+  background-color: #5B4224;
   color: #5B4224 !important;
 }
 input[type=submit]:active,
@@ -2259,7 +2259,7 @@ input[type=reset]:active,
 input[type=button]:active,
 button:active,
 .button:active {
-  background-color: rgba(144, 144, 144, 0.15);
+  background-color: #9F7644;
   color: #5B4224 !important;
 }
 input[type=submit].icon,
@@ -2397,7 +2397,7 @@ button:disabled,
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: rgba(144, 144, 144, 0.075);
+  background-color: #5B4224;
   background-image: url("images/arrow.svg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -2416,7 +2416,7 @@ button:disabled,
   width: 4em;
 }
 .main .goto-next:hover {
-  background-color: rgba(144, 144, 144, 0.15);
+  background-color: #9F7644;
 }
 
 /* Header */

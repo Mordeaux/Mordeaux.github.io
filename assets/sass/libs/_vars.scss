@@ -43,9 +43,9 @@ $color-accent2: $cape-palliser;
 		fg-light:			mix($gray-nickel, $woodrush, 0.5),
 		fg-lighter:			mix($gray-nickel, $woodrush, 0.25),
 		border:				mix($color-white, $cape-palliser, 0.8),
-		border-bg:			rgba(144,144,144,0.075),
+		border-bg:			$irish-coffee,
 		border2:			mix($color-white, #fff, 0.5),
-		border2-bg:			rgba(144,144,144,0.15),
+		border2-bg:			$cape-palliser,
 
 		alt: (
 			fg-bold:		$color-alt,
