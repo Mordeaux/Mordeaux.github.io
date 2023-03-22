@@ -5,17 +5,87 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +94,17 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -33,14 +112,18 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -64,7 +147,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -76,7 +161,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -89,7 +176,9 @@ html {
   background-size: auto, cover;
 }
 
-html.is-preload *, html.is-preload *:before, html.is-preload *:after {
+html.is-preload *,
+html.is-preload *:before,
+html.is-preload *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
   -ms-animation: none !important;
@@ -111,7 +200,10 @@ html.is-touch #wrapper {
   overflow: auto;
 }
 
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #5B4224;
   font-family: "Raleway", "Helvetica", sans-serif;
   font-size: 15pt;
@@ -134,12 +226,14 @@ a:hover {
   text-decoration: none;
 }
 
-strong, b {
+strong,
+b {
   color: #5B4224;
   font-weight: 700;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -147,7 +241,12 @@ p {
   margin: 0 0 2em 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #5B4224;
   font-weight: 800;
   letter-spacing: 0.075em;
@@ -155,7 +254,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1em 0;
   text-transform: uppercase;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none;
 }
@@ -1550,7 +1654,8 @@ html.is-preload body:after {
   }
 }
 /* Section/Article */
-section.special, article.special {
+section.special,
+article.special {
   text-align: center;
 }
 
@@ -1577,10 +1682,20 @@ header h6 + p {
 header.major {
   text-align: center;
 }
-header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
+header.major h1,
+header.major h2,
+header.major h3,
+header.major h4,
+header.major h5,
+header.major h6 {
   position: relative;
 }
-header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
+header.major h1:after,
+header.major h2:after,
+header.major h3:after,
+header.major h4:after,
+header.major h5:after,
+header.major h6:after {
   background: #9f7745;
   content: "";
   display: block;
@@ -2265,7 +2380,7 @@ button:disabled,
   box-shadow: inset 0 1px 0 0 #9f7745;
 }
 .main .container:before {
-  min-height: calc( 100vh - 13em );
+  min-height: calc(100vh - 13em);
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -2322,7 +2437,14 @@ button:disabled,
   padding-bottom: 8em;
   vertical-align: middle;
 }
-#header header h1, #header header h2, #header header h3, #header header h4, #header header h5, #header header h6, #header header strong, #header header b {
+#header header h1,
+#header header h2,
+#header header h3,
+#header header h4,
+#header header h5,
+#header header h6,
+#header header strong,
+#header header b {
   color: #342611;
 }
 #header header a {
@@ -2379,7 +2501,14 @@ button:disabled,
   text-align: center;
   width: 100%;
 }
-#footer footer h1, #footer footer h2, #footer footer h3, #footer footer h4, #footer footer h5, #footer footer h6, #footer footer strong, #footer footer b {
+#footer footer h1,
+#footer footer h2,
+#footer footer h3,
+#footer footer h4,
+#footer footer h5,
+#footer footer h6,
+#footer footer strong,
+#footer footer b {
   color: #342611;
 }
 #footer footer a {
@@ -2408,16 +2537,15 @@ button:disabled,
 /* Large */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 12pt;
   }
 }
 /* Medium */
 @media screen and (max-width: 980px) {
-  /* Main BG */
-  .main-bg {
-    display: none;
-  }
   /* Main */
   .main .image.primary {
     display: block;
@@ -2495,10 +2623,15 @@ button:disabled,
 /* XSmall */
 @media screen and (max-width: 480px) {
   /* Basic */
-  html, body {
+  html,
+  body {
     min-width: 320px;
   }
   /* List */
+  /* Main BG */
+  .main-bg {
+    display: none;
+  }
   ul.actions {
     margin: 0 0 2em 0;
   }
@@ -2575,3 +2708,5 @@ button:disabled,
     padding: 0;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
